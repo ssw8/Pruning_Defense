@@ -1,3 +1,9 @@
+"""
+Simon Shenmeng Wang
+simon.wang.orz@gmail.com
+ssw8641@nyu.edu
+"""
+
 import numpy as np
 
 class G():
