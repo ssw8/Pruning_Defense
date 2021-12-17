@@ -15,7 +15,7 @@ def data_loader(filepath):
 # file names
 clean_data_filename = '/data/clean_validation_data.h5'
 poisoned_data_filename = '/data/sunglasses_poisoned_data.h5'
-model_filename = '/data/bd_net.h5'
+model_filename = '/models/bd_net.h5'
 
 
 # data-loading
