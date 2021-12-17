@@ -5,8 +5,11 @@ Please visit both README.md under 'data' folder to properly accquire all data ne
 The following packages need to be installed to make sure the code function properlly.
 
 >h5py
+
 >numpy
+
 >keras
+
 >matplotlib
 
 First, run pruning_defense.py file and a list of backdoor-repaired models will be generated under 'models' folder. 
