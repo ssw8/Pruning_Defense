@@ -1,3 +1,10 @@
+"""
+Simon Shenmeng Wang
+simon.wang.orz@gmail.com
+ssw8641@nyu.edu
+"""
+
+
 import h5py
 import numpy as np
 import keras
