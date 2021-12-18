@@ -17,11 +17,11 @@ class G():
         final_out = []
         output = self.model.predict(x)
         output_fixed = self.model.predict(x)
-        N = len(output)
+        cls = output.shape[1]
         for i in range(len(output)):
             if np.argmax(output[i]) != np.argmax(output_fixed[i]):
-                output_G = np.zeros(N + 1)
-                output_G[N] = 1
+                output_G = np.zeros(cls + 1)
+                output_G[cls] = 1
             else:
                 output_G = np.append(output[i], 0)
             final_out.append(output_G)
