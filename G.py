@@ -21,7 +21,7 @@ class G():
         for i in range(len(output)):
             if np.argmax(output[i]) != np.argmax(output_fixed[i]):
                 output_G = np.zeros(cls + 1)
-                output_G[cls+1] = 1
+                output_G[cls] = 1
             else:
                 output_G = np.append(output[i], 0)
             final_out.append(output_G)
